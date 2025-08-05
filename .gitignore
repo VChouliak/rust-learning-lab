@@ -1,0 +1,33 @@
+# === Rust build ===
+/target/
+**/target/
+!**/src/target/
+
+# === Cargo files ===
+Cargo.lock
+**/*.rs.bk
+
+# === Rust backups ===
+*.rs.bk
+*.rs~
+
+# === IntelliJ / RustRover ===
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# === VSCode ===
+.vscode/
+.history/
+
+# === Logs & temp ===
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# === Test results ===
+/test-results/
