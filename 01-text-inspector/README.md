@@ -21,4 +21,4 @@ line count, word count, unique words, and filtering by keywords.
 ## Run
 
 ```bash
-cargo run -- --file file.txt --filter rust
+cargo run -- --file file.txt --[contains,starts-with,ends-with] rust

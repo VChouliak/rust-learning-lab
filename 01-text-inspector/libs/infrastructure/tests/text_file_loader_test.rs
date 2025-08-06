@@ -14,6 +14,6 @@ fn test_text_file_loader_reads_file_correctly() {
     assert!(result.is_ok());
 
     let content = result.unwrap();
-    assert!(content.content.contains("Rust"));
-    assert_eq!(content.content.lines().count(), 9);
+    assert!(content.raw.contains("Rust"));
+    assert_eq!(content.raw.lines().count(), 9);
 }

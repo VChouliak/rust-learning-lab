@@ -1,14 +1,35 @@
-pub struct Content {
-    pub content: String,
+pub struct TextContent {
+    pub raw: String,
 }
 
-impl Content {
-    pub fn new(content: &str) -> Content {
-        Content {
-            content: content.to_string(),
+impl TextContent {
+    pub fn new(content: &str) -> TextContent {
+        TextContent {
+            raw: content.to_string(),
+        }
+    }
+    pub fn lines(&self) -> impl Iterator<Item = &str> {
+        self.raw.lines()
+    }
+}
+
+#[derive(Debug, Clone)]
+pub enum Filter {
+    Contains(String),
+    StartsWith(String),
+    EndsWith(String),
+}
+
+impl Filter {
+    pub fn matches(&self, line: &str) -> bool {
+        match self {
+            Filter::Contains(term) => line.contains(term),
+            Filter::StartsWith(prefix) => line.starts_with(prefix),
+            Filter::EndsWith(suffix) => line.ends_with(suffix),
         }
     }
 }
+
 
 pub struct Statistics {
     pub lines_count: usize,
@@ -27,3 +48,4 @@ impl Statistics {
         }
     }
 }
+
