@@ -16,7 +16,7 @@ fn test_end_to_end_text_analysis() {
         .process(file_path)
         .expect("Failed to load text file");
 
-    let statistics = analyzer.process(&content.content).unwrap();
+    let statistics = analyzer.process(&content).unwrap();
 
     assert_eq!(statistics.lines_count, 9);
     assert!(statistics.words_count > 10);

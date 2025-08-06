@@ -21,4 +21,4 @@ line count, word count, unique words, and filtering by keywords.
 ## Run
 
 ```bash
-cargo run -- file.txt --filter rust
+cargo run -- --file file.txt --filter rust
