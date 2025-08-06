@@ -1,0 +1,9 @@
+Rust is a systems programming language focused on safety, speed, and concurrency.
+
+Unlike C and C++, Rust guarantees memory safety without a garbage collector, thanks to its ownership system.
+
+Rust empowers developers to build reliable and efficient software — from low-level embedded devices to high-performance servers.
+
+Rustaceans (Rust users) enjoy a rich ecosystem, strong type system, and excellent tooling like Cargo and Clippy.
+
+Concurrency without data races? That’s Rust.

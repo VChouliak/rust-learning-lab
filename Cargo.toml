@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "01-text-inspector/libs/core",
+    "01-text-inspector/libs/service",
+    "01-text-inspector/libs/infrastructure",
+    "01-text-inspector/apps/cli"
+]
