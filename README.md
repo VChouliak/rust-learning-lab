@@ -28,11 +28,11 @@ Each subproject in this repository corresponds to a major chapter of the course 
 
 ## 🧱 Project Structure
 
-| Folder              | Description                            |
-|---------------------|----------------------------------------|
-| `01-text-inspector` | Task based on Chapter 1 (CLI, IO, Analysis) |
-| `02-...`            | Task based on Chapter 2 (TBD)           |
-| `03-...`            | ...                                    |
+| Folder                 | Description                                         |
+|------------------------|-----------------------------------------------------|
+| `01-text-inspector`    | Task based on Chapter 1 (CLI, IO, Analysis)         |
+| `02-threaded-analyzer` | Task based on Chapter 2 (CLI, Threads, Analysis) |
+| `03-...`               | ...                                                 |
 
 ---
 
