@@ -46,4 +46,4 @@ cd rust-learning-lab/02-threaded-analyzer
 cargo build
 
 # Run with a list of numbers
-cargo run --bin cli -- 10 25 42 101 256
+cargo run --bin CLI -- 10 25 42 101 256

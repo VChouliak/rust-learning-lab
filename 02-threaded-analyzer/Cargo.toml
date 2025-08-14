@@ -2,4 +2,4 @@
 
 resolver = "3"
 members = [
-    "apps/cli"]
+    "apps/CLI"]
