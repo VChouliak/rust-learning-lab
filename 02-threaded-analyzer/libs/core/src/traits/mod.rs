@@ -1,2 +1,4 @@
-pub mod task;
-pub mod thread_pool;
+mod job;
+pub use job::*;
+mod thread_pool;
+pub use thread_pool::*;

@@ -1,6 +1,6 @@
-use super::task::Job;
+use super::job::Job;
 
-pub trait Executor {
+pub trait ThreadPool {
     fn execute<J>(&self, job: J)
     where
         J: Job;
