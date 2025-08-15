@@ -1,4 +1,4 @@
-use super::job::Job;
+use crate::traits::Job;
 
 pub trait ThreadPool {
     fn execute<J>(&self, job: J)

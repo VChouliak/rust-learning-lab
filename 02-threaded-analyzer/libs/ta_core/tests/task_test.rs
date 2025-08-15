@@ -1,5 +1,6 @@
 use std::sync::{Arc, Mutex};
-use core::traits::Job;
+use ta_core::traits::Job;
+
 #[test]
 fn job_updates_string() {
     let greeting = Arc::new(Mutex::new("Hello".to_string()));
