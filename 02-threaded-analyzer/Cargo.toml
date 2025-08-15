@@ -2,4 +2,4 @@
 
 resolver = "3"
 members = [
-    "apps/CLI", "libs/ta_core", "libs/service", "libs/infrastructure"]
+    "apps/CLI", "libs/ta_core", "libs/service"]
