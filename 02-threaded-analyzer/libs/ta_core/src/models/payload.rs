@@ -1,3 +1,3 @@
-pub struct PayLoad<T> {
+pub struct Payload<T> {
     pub data: Vec<T>,
 }
