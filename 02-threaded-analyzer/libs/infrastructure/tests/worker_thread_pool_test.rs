@@ -1,5 +1,4 @@
 use std::sync::{Arc, Mutex};
-use ta_core::traits::ThreadPool;
 use infrastructure::threads::WorkerThreadPool;
 
 #[test]
