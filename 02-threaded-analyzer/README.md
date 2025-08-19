@@ -45,5 +45,8 @@ cd rust-learning-lab/02-threaded-analyzer
 # Build the CLI app
 cargo build
 
-# Run with a list of numbers
-cargo run --bin CLI -- 10 25 42 101 256
+# Run with a list of numbers for fibonacci
+cargo run --bin CLI -- fibonacci --numbers 100000 20000 3000
+
+#or for prime numbers
+cargo run --bin CLI -- prime --numbers 7 10 17
